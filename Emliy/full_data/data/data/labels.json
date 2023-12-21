@@ -1,0 +1,430 @@
+[
+  {
+    "column": "PERSONID",
+    "description": "ID of each respondent. This is not in the CDC data and was just added by US Digital Corps for this assessment.",
+    "labels": {
+      "13-446970": "Person IDs"
+    }
+  },
+  {
+    "column": "DIABETE3",
+    "description": "(Ever told) you have diabetes",
+    "labels": {
+      "1": "Yes",
+      "2": "Yes, but female told only during pregnancy",
+      "3": "No",
+      "4": "No, pre-diabetes or borderline diabetes",
+      "7": "Don’t know/Not Sure",
+      "9": "Refused"
+    }
+  },
+  {
+    "column": "_RACE",
+    "description": "Race/ethnicity categories",
+    "labels": {
+      "1": "White",
+      "2": "Black",
+      "3": "Am. Indian",
+      "4": "Asian",
+      "5": "Pacific",
+      "6": "Other",
+      "7": "Multiracial",
+      "8": "Hispanic",
+      "9": "Don’t know/Not sure/Refused"
+    }
+  },
+  {
+    "column": "MSCODE",
+    "description": "Metropolitan Status Code",
+    "labels": {
+      "1": "In the center city of an MSA",
+      "2": "Outside the center city of an MSA but inside the county containing the center city",
+      "3": "Inside a suburban county of the MSA",
+      "5": "Not in an MSA"
+    }
+  },
+  {
+    "column": "EMPLOY1",
+    "description": "Are you currently employed/working?",
+    "labels": {
+      "1": "Employed for wages",
+      "2": "Self-employed",
+      "3": "Out of work for 1 year or more",
+      "4": "Out of work for less than 1 year",
+      "5": "A homemaker",
+      "6": "A student",
+      "7": "Retired",
+      "8": "Unable to work",
+      "9": "Refused"
+    }
+  },
+  {
+    "column": "SEX",
+    "description": "Indicate sex of respondent.",
+    "labels": {
+      "1": "Male",
+      "2": "Female"
+    }
+  },
+  {
+    "column": "MARITAL",
+    "description": "Are you: (marital status)",
+    "labels": {
+      "1": "Married",
+      "2": "Divorced",
+      "3": "Widowed",
+      "4": "Separated",
+      "5": "Never married",
+      "6": "A member of an unmarried couple",
+      "9": "Refused"
+    }
+  },
+  {
+    "column": "RENTHOM1",
+    "description": "Do you own or rent your home? (Home is defined as the place where you live most of the time/the majority of the year.)",
+    "labels": {
+      "1": "Own",
+      "2": "Rent",
+      "3": "Other arrangement",
+      "7": "Don’t know/Not Sure",
+      "9": "Refused"
+    }
+  },
+  {
+    "column": "_STATE",
+    "description": "State FIPS Code",
+    "labels": {
+      "1": "Alabama",
+      "2": "Alaska",
+      "4": "Arizona",
+      "5": "Arkansas",
+      "6": "California",
+      "8": "Colorado",
+      "9": "Connecticut",
+      "10": "Delaware",
+      "11": "District of Columbia",
+      "12": "Florida",
+      "13": "Georgia",
+      "15": "Hawaii",
+      "16": "Idaho",
+      "17": "Illinois",
+      "18": "Indiana",
+      "19": "Iowa",
+      "20": "Kansas",
+      "21": "Kentucky",
+      "22": "Louisiana",
+      "23": "Maine",
+      "24": "Maryland",
+      "25": "Massachusetts",
+      "26": "Michigan",
+      "27": "Minnesota",
+      "28": "Mississippi",
+      "29": "Missouri",
+      "30": "Montana",
+      "31": "Nebraska",
+      "32": "Nevada",
+      "33": "New Hampshire",
+      "34": "New Jersey",
+      "35": "New Mexico",
+      "36": "New York",
+      "37": "North Carolina",
+      "38": "North Dakota",
+      "39": "Ohio",
+      "40": "Oklahoma",
+      "41": "Oregon",
+      "42": "Pennsylvania",
+      "44": "Rhode Island",
+      "45": "South Carolina",
+      "46": "South Dakota",
+      "47": "Tennessee",
+      "48": "Texas",
+      "49": "Utah",
+      "50": "Vermont",
+      "51": "Virginia",
+      "53": "Washington",
+      "54": "West Virginia",
+      "55": "Wisconsin",
+      "56": "Wyoming",
+      "66": "Guam",
+      "72": "Puerto Rico"
+    }
+  },
+  {
+    "column": "NUMADULT",
+    "description": "Number of adults in the household. ",
+    "labels": {
+      "1": "Number of adults in the household",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6 - 99": "6 or more"
+    }
+  },
+  {
+    "column": "CHILDREN",
+    "description": "How many children less than 18 years of age live in your household?",
+    "labels": {
+      "1 - 87": "Number of children",
+      "88": "None",
+      "99": "Refused"
+    }
+  },
+  {
+    "column": "INCOME2",
+    "description": "Is your annual household income from all sources: (If respondent refuses at any income level, code 'Refused.')",
+    "labels": {
+      "1": "Less than $10,000",
+      "2": "Less than $15,000 ($10,000 to less than $15,000)",
+      "3": "Less than $20,000 ($15,000 to less than $20,000)",
+      "4": "Less than $25,000 ($20,000 to less than $25,000)",
+      "5": "Less than $35,000 ($25,000 to less than $35,000)",
+      "6": "Less than $50,000 ($35,000 to less than $50,000)",
+      "7": "Less than $75,000 ($50,000 to less than $75,000)",
+      "8": "$75,000 or more",
+      "77": "Don’t know/Not sure",
+      "99": "Refused"
+    }
+  },
+  {
+    "column": "_EDUCAG",
+    "description": "Level of education completed",
+    "labels": {
+      "1": "Did not graduate High School",
+      "2": "Graduated High School",
+      "3": "Attended College or Technical School",
+      "4": "Graduated from College or Technical School",
+      "9": "Don’t know/Not sure/Missing"
+    }
+  },
+  {
+    "column": "WEIGHT2",
+    "description": "About how much do you weigh without shoes? (If respondent answers in metrics, put a 9 in the first column)[Round fractions up.] 9999 Refused , 7777 Don't know/Not Sure, 50-999 weight in pounds, 9000-9998 weight in kilograms. The initial ´9´ indicates this was a metric value.",
+    "labels": {
+      "50 - 0999": "Weight (pounds)",
+      "7777": "Don’t know/Not sure",
+      "9000 - 9998": "Weight (kilograms)",
+      "9999": "Refused"
+    }
+  },
+  {
+    "column": "FLUSHOT6",
+    "description": "During the past 12 months, have you had either a flu shot or a flu vaccine that was sprayed in your nose? (A new flu shot came out in 2011 that injects vaccine into the skin with a very small needle. It is called Fluzone Intradermal vaccine.This is also considered a flu shot.)",
+    "labels": {
+      "1": "Yes",
+      "2": "No",
+      "7": "Don’t know/Not Sure",
+      "9": "Refused"
+    }
+  },
+  {
+    "column": "CVDCRHD4",
+    "description": "(Ever told) you had angina or coronary heart disease?",
+    "labels": {
+      "1": "Yes",
+      "2": "No",
+      "7": "Don’t know/Not sure",
+      "9": "Refused"
+    }
+  },
+  {
+    "column": "HLTHCVR1",
+    "description": "What is the primary source of your health care coverage? Is it…",
+    "labels": {
+      "1": "A plan purchased through an employer or union",
+      "2": "A plan that you or another family member buys on your own",
+      "3 ": "Medicare",
+      "4 ": "Medicaid or other state program",
+      "5 ": "TRICARE (formerly CHAMPUS), VA, or Military",
+      "6 ": "Alaska Native, Indian Health Service, Tribal Health Services",
+      "7 ": "Some other source",
+      "8 ": "None (no coverage)",
+      "77": " Don’t know/Not Sure",
+      "99": " Refused"
+    }
+  },
+  {
+    "column": "CHCKIDNY",
+    "description": "(Ever told) you have kidney disease? Do NOT include kidney stones, bladder infection or incontinence (Incontinence is not being able to control urine flow.)",
+    "labels": {
+      "1": "Yes",
+      "2": "No",
+      "7": "Don’t know / Not sure",
+      "9": "Refused"
+    }
+  },
+  {
+    "column": "USEEQUIP",
+    "description": "Do you now have any health problem that requires you to use special equipment, such as a cane, a wheelchair, a special bed, or a special telephone? (Include occasional use or use in certain circumstances.)",
+    "labels": {
+      "1": "Yes",
+      "2": "No",
+      "7": "Don’t know/Not Sure",
+      "9": "Refused"
+    }
+  },
+  {
+    "column": "_TOTINDA",
+    "description": "Adults who reported doing physical activity or exercise during the past 30 days other than their regular job",
+    "labels": {
+      "1": "Had physical activity or exercise",
+      "2": "No physical activity or exercise in last 30 days",
+      "9": "Don’t know/Refused/Missing"
+    }
+  },
+  {
+    "column": "ADDEPEV2",
+    "description": "(Ever told) you that you have a depressive disorder, including depression, major depression, dysthymia, or minor depression?",
+    "labels": {
+      "1": "Yes",
+      "2": "No",
+      "7": "Don’t know/Not sure",
+      "9": "Refused"
+    }
+  },
+  {
+    "column": "EXERANY2",
+    "description": "During the past month, other than your regular job, did you participate in any physical activities or exercises such as running, calisthenics, golf, gardening, or walking for exercise?",
+    "labels": {
+      "1": "Yes",
+      "2": "No",
+      "7": "Don’t know/Not Sure",
+      "9": "Refused"
+    }
+  },
+  {
+    "column": "BLIND",
+    "description": "Are you blind or do you have serious difficulty seeing, even when wearing glasses?",
+    "labels": {
+      "1": "Yes",
+      "2": "No",
+      "7": "Don’t know/Not Sure",
+      "9": "Refused"
+    }
+  },
+  {
+    "column": "DECIDE",
+    "description": "Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?",
+    "labels": {
+      "1": "Yes",
+      "2": "No",
+      "7": "Don’t know/Not Sure",
+      "9": "Refused"
+    }
+  },
+  {
+    "column": "HLTHPLN1",
+    "description": "Do you have any kind of health care coverage,including health insurance, prepaid plans such as HMOs, or government plans such as Medicare, or Indian Health Service?",
+    "labels": {
+      "1": "Yes",
+      "2": "No",
+      "7": "Don’t know/Not Sure",
+      "9": "Refused"
+    }
+  },
+  {
+    "column": "ASTHMA3",
+    "description": "(Ever told) you had asthma?",
+    "labels": {
+      "1": "Yes",
+      "2": "No",
+      "7": "Don’t know/Not Sure",
+      "9": "Refused"
+    }
+  },
+  {
+    "column": "DRVISITS",
+    "description": "How many times have you been to a doctor, nurse, or other health professional in the past 12 months?",
+    "labels": {
+      "1 - 76": "Number of times",
+      "88": "None",
+      "77": "Don’t know/Not Sure"
+    }
+  },
+  {
+    "column": "GENHLTH",
+    "description": "Would you say that in general your health is:",
+    "labels": {
+      "1": "Excellent",
+      "2": "Very good",
+      "3": "Good",
+      "4": "Fair",
+      "5": "Poor",
+      "7": "Don’t know/Not Sure",
+      "9": "Refused"
+    }
+  },
+  {
+    "column": "_AGEG5YR",
+    "description": "Fourteen-level age category",
+    "labels": {
+      "1": "Age 18 to 24",
+      "2": "Age 25 to 29",
+      "3": "Age 30 to 34",
+      "4": "Age 35 to 39",
+      "5": "Age 40 to 44",
+      "6": "Age 45 to 49",
+      "7": "Age 50 to 54",
+      "8": "Age 55 to 59",
+      "9": "Age 60 to 64",
+      "10": "Age 65 to 69",
+      "11": "Age 70 to 74",
+      "12": "Age 75 to 79",
+      "13": "Age 80 or older",
+      "14": "Don’t know/Refused/Missing"
+    }
+  },
+  {
+    "column": "_BMI5CAT",
+    "description": "Four-categories of Body Mass Index (BMI)",
+    "labels": {
+      "1": "Underweight",
+      "2": "Normal Weight",
+      "3": "Overweight",
+      "4": "Obese"
+    }
+  },
+  {
+    "column": "CHECKUP1",
+    "description": "About how long has it been since you last visited a doctor for a routine checkup? [A routine checkup is a general physical exam, not an exam for a specific injury, illness, or condition.]",
+    "labels": {
+      "1": "Within past year (anytime less than 12 months ago)",
+      "2": "Within past 2 years (1 year but less than 2 years ago)",
+      "3": "Within past 5 years (2 years but less than 5 years ago)",
+      "4": "5 or more years ago",
+      "7": "Don’t know/Not sure",
+      "8": "Never",
+      "9": "Refused"
+    }
+  },
+  {
+    "column": "SLEPTIM1",
+    "description": "On average, how many hours of sleep do you get in a 24-hour period?",
+    "labels": {
+      "1 - 24": "Number of hours",
+      "77": "Don’t know/Not Sure",
+      "99": "Refused"
+    }
+  },
+  {
+    "column": "MENTHLTH",
+    "description": "Now thinking about your mental health, which includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good?",
+    "labels": {
+      "1 - 30": "Number of days",
+      "88": "None",
+      "77": "Don’t know/Not sure",
+      "99": "Refused"
+    }
+  },
+  {
+    "column": "_SMOKER3",
+    "description": "Four-level smoker status: Everyday smoker, Someday smoker, Former smoker, Non-smoker",
+    "labels": {
+      "1": "Current smoker - now smokes every day",
+      "2": "Current smoker - now smokes some days",
+      "3": "Former smoker",
+      "4": "Never smoked",
+      "9": "Don’t know/Refused/Missing"
+    }
+  }
+]
